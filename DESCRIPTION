@@ -13,3 +13,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     magrittr
+URL: https://github.com/BowenQin181/manualML
+BugReports: https://github.com/BowenQin181/manualML/issues
