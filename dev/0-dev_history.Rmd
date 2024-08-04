@@ -85,7 +85,7 @@ gitcreds::gitcreds_set()
 # Send your project to a new GitHub project (included in `init_share_on_github()`)
 usethis::use_github()
 
-13# Set Continuous Integration
+# Set Continuous Integration
 # _GitHub (included in `init_share_on_github()`)
 usethis::use_github_action_check_standard()
 usethis::use_github_action("pkgdown")
