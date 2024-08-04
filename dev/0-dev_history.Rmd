@@ -16,15 +16,15 @@ All commands that you use to use when developing packages...
 fusen::fill_description(
   pkg = here::here(),
   fields = list(
-    Title = "Build A Package From Rmarkdown File",
-    Description = "Use Rmarkdown First method to build your package. Start your package with documentation. Everything can be set from a Rmarkdown file in your project.",
+    Title = "Build My Machine Learning Package",
+    Description = "By Building this package, I could not only get a better command of machine learning, but also practice what my skills of building a reproducible analytical pipelines with R.",
     `Authors@R` = c(
-      person("John", "Doe", email = "john@email.me", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000"))
+      person("Bowen", "Qin", email = "qinbowen181@163.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000"))
     )
   )
 )
 # Define License with use_*_license()
-usethis::use_mit_license("John Doe")
+usethis::use_proprietary_license("Bowen Qin")
 ```
 
 # All-in-one function to deploy publicly on GitHub
@@ -85,7 +85,7 @@ gitcreds::gitcreds_set()
 # Send your project to a new GitHub project (included in `init_share_on_github()`)
 usethis::use_github()
 
-# Set Continuous Integration
+3# Set Continuous Integration
 # _GitHub (included in `init_share_on_github()`)
 usethis::use_github_action_check_standard()
 usethis::use_github_action("pkgdown")
