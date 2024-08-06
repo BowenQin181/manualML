@@ -1,17 +1,24 @@
 Package: manualML
-Version: 0.0.0.9000
 Title: Build My Machine Learning Package
-Description: By Building this package, I could not only get a better command of machine learning, but also practice what my skills of building a reproducible analytical pipelines with R.
-Authors@R: person(given = "Bowen",
-       family = "Qin",
-       role = c("aut", "cre"),
-       email = "qinbowen181@163.com",
-       comment = c(ORCID = "0000-0000-0000-0000"))
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bowen", "Qin", , "qinbowen181@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: By Building this package, I could not only get a better
+    command of machine learning, but also practice what my skills of
+    building a reproducible analytical pipelines with R.
 License: file LICENSE
+URL: https://github.com/BowenQin181/manualML
+BugReports: https://github.com/BowenQin181/manualML/issues
+Imports: 
+    magrittr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Config/fusen/version: 0.6.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Imports: 
-    magrittr
-URL: https://github.com/BowenQin181/manualML
-BugReports: https://github.com/BowenQin181/manualML/issues

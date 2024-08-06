@@ -1,5 +1,5 @@
 ---
-title: "flat_first.Rmd empty"
+title: "flat_PLA.Rmd empty"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -23,11 +23,11 @@ pkgload::load_all(export_all = FALSE)
 ```{r function-first}
 #' first Title
 #'
-#' @return 1
+#' @return 
 #' @export
 #'
 #' @examples
-first <- function() {
+ML_pla <- function(formula, data) {
   1
 }
 ```
